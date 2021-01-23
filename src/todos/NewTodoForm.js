@@ -4,6 +4,8 @@ import './NewTodoForm.css';
 const NewTodoForm = () => {
     const [inputValue, setInputValue] = useState('');
 
+    console.log(inputValue);
+
     return (
         <div className="new-todo-form">
             <input 

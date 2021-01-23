@@ -6,8 +6,6 @@ import './NewTodoForm.css';
 const NewTodoForm = ({ todos, onCreatePressed }) => {
     const [inputValue, setInputValue] = useState('');
 
-    console.log(inputValue);
-
     return (
         <div className="new-todo-form">
             <input
@@ -25,8 +23,7 @@ const NewTodoForm = ({ todos, onCreatePressed }) => {
                         setInputValue('');
                     }
                 }}
-                className="new-todo-button"
-            >Create Todo</button>
+                className="new-todo-button" >Create Todo</button>
         </div>
     )
 };
